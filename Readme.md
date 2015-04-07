@@ -58,6 +58,15 @@ For many common platforms, a built distribution is available as an Python egg. T
 
 As of this writing, SimpleITK version >=0.6r1 is required to run these notebooks. This version currently needs to be downloaded from [Source Forge](http://sourceforge.net/projects/simpleitk/files/SimpleITK/0.6.rc1/Python/)
 
+wxue: New Anaconda python distribution (early 2015) has includede SimpleITK in its package list. After install Anaconda, SimpleITK can be downloaded with the following command:
+
+    conda install --channel SimpleITK SimpleITK
+
+More detailed process can be found:
+
+http://www.cs.cmu.edu/~galeotti/methods_course/assignment-itkinstall.html
+
+In this instruction, it recommends to install 32-bit Anaconda python in Windows machines.
 
 ### Run the environment
 
